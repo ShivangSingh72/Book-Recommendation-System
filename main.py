@@ -1,0 +1,2 @@
+from books_recommender.pipeline.training_pipeline import TrainingPipeline
+
