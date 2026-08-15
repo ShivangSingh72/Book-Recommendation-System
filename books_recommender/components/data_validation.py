@@ -34,19 +34,25 @@ class DataValidation:
             ratings = pd.read_csv(
                 self.data_validation_config.ratings_csv_file,
                 sep=";",
-                encoding="latin-1"
+                encoding="latin-1",
+                on_bad_lines="skip",
+                engine="python"
             )
 
             books = pd.read_csv(
                 self.data_validation_config.books_csv_file,
                 sep=";",
-                encoding="latin-1"
+                encoding="latin-1",
+                on_bad_lines="skip",
+                engine="python"
             )
 
             users = pd.read_csv(
                 self.data_validation_config.users_csv_file,
                 sep=";",
-                encoding="latin-1"
+                encoding="latin-1",
+                on_bad_lines="skip",
+                engine="python"
             )
 
             logging.info(
