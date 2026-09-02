@@ -1,0 +1,28 @@
+# Config is like setting where we can change in one place 
+# without changing the whole code
+
+# like instead of changing the dataset everywhere i need to change it here
+# and the path for dataset will be changed
+
+# i can simply just import config
+
+artifacts_config:
+  artifacts_dir: artifacts
+
+data_ingestion_config:
+  data_dir: data
+  books_csv_file: Books.csv
+  users_csv_file: Users.csv
+  ratings_csv_file: Book-Ratings.csv
+
+data_validation_config:
+  clean_data_file: clean_data.csv
+
+data_transformation_config:
+  final_rating_file: final_rating.pkl
+  book_pivot_file: book_pivot.pkl
+  book_names_file: book_names.pkl
+
+model_trainer_config:
+  model_dir: data/models
+  model_name: model.pkl
