@@ -85,7 +85,7 @@ Streamlit Application
 Clone the repository and move into the project directory:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/ShivangSingh72/Book-Recommendation-System.git
 cd Book-Recommendation-System
 ```
 
@@ -135,15 +135,12 @@ Recommended screenshots:
 - Training/pipeline view
 - EDA notebook
 
-Example:
-
 ```markdown
 ![Book Recommendation Dashboard](screenshots/dashboard.png)
 
 ![Recommendation Results](screenshots/recommendation.png)
-```
 
----
+```
 
 ## 🧠 Recommendation Approach
 
@@ -475,6 +472,6 @@ This project demonstrates an end-to-end workflow covering:
 
 Computer Science Engineering — AI/ML
 
-GitHub: [Add your GitHub profile]
+GitHub: https://github.com/ShivangSingh72
 
-LinkedIn: [Add your LinkedIn profile]
+LinkedIn: https://www.linkedin.com/in/shivang-singh-89b550358/
